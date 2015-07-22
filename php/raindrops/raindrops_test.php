@@ -41,49 +41,41 @@ class RaindropsTest extends PHPUnit_Framework_TestCase
 
     public function test15()
     {
-        $this->markTestSkipped();
         $this->assertSame("PlingPlang", raindrops(15));
     }
 
     public function test21()
     {
-        $this->markTestSkipped();
         $this->assertSame("PlingPlong", raindrops(21));
     }
 
     public function test25()
     {
-        $this->markTestSkipped();
         $this->assertSame("Plang", raindrops(25));
     }
 
     public function test35()
     {
-        $this->markTestSkipped();
         $this->assertSame("PlangPlong", raindrops(35));
     }
 
     public function test49()
     {
-        $this->markTestSkipped();
         $this->assertSame("Plong", raindrops(49));
     }
 
     public function test52()
     {
-        $this->markTestSkipped();
         $this->assertSame("52", raindrops(52));
     }
 
     public function test105()
     {
-        $this->markTestSkipped();
         $this->assertSame("PlingPlangPlong", raindrops(105));
     }
 
     public function test12121()
     {
-        $this->markTestSkipped();
         $this->assertSame("12121", raindrops(12121));
     }
 }

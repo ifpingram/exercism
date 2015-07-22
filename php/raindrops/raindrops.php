@@ -9,17 +9,12 @@ function raindrops($number_of_drops)
     }
 
     if($number_of_drops % 5 === 0) {
-        $output = 'Plang';
+        $output .= 'Plang';
     }
 
     if($number_of_drops % 7 === 0) {
-        $output = 'Plong';
+        $output .= 'Plong';
     }
 
-
-    if($output === '')
-    {
-        return '1';
-    }
-    return $output;
+    return ($output) ? $output : (string)$number_of_drops;
 }
